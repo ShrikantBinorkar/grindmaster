@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*==================================*/
+/* Theme Name: Grindmaster */
+/* Theme URI:*/
+/* Author Name: Team Syscort */
+/* Author URI: http://www.syscort.com */
+/* Date: July,20,2020 */
+/*==================================*/
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../webfonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../webfonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_unicode.commercb';
+	src: url('../webfonts/unicode.commercb.eot');
+	src: local('?'), url('../webfonts/unicode.commercb.woff') format('woff'), url('../webfonts/unicode.commercb.ttf') format('truetype'), url('../webfonts/unicode.commercb.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+::-moz-selection { 
+  color: #fff;
+  background: #d25860;
+}
+
+::selection {
+  color: #fff;
+  background: #d25860;
+}
+
+
+
+/*	_BG Color
+_________________________________*/
+.GreyBGColor{ background-color:#f2f2f2;}
+
+.BlackTxtColor{color:#292929;}
+
+
+
+
+/*	_Font Size
+_________________________________*/
+.FontSize12{ font-size:12px;}
+.FontSize14{ font-size:14px;}
+.FontSize16{ font-size:16px;}
+.FontSize18{ font-size:18px;}
+.FontSize20{ font-size:20px;}
+.FontSize22{ font-size:22px;}
+.FontSize24{ font-size:24px;}
+.FontSize25{ font-size:25px;}
+.FontSize26{ font-size:26px;}
+.FontSize28{ font-size:28px;}
+.FontSize30{ font-size:30px;}
+.FontSize32{ font-size:32px;}
+.FontSize34{ font-size:34px;}
+.FontSize36{ font-size:36px;}
+.FontSize38{ font-size:38px;}
+.FontSize40{ font-size:40px;}
+.FontSize42{ font-size:42px;}
+.FontSize44{ font-size:44px;}
+.FontSize46{ font-size:46px;}
+.FontSize48{ font-size:48px;}
+.FontSize50{ font-size:50px;}
+
+/*	_Body
+_________________________________*/
+
+body{ color:#292929; font-size:1rem;}
+#Wrapper{ width:100%; height:auto; }
+
+.CustomUl{ list-style:inside !important; list-style-type:square !Important; margin:0px; padding-left:0px;}
+.CustomUl li{ margin-bottom:6px;}
+
+
+.LeftNav{ width:auto; margin-left:-40px;}
+.RightNav{ width:auto; margin-right:-40px;}
+
+
+@media screen and (max-width: 991px) {
+.LeftNav{ width:auto; margin-left:0px;}
+.RightNav{ width:auto; margin-right:0px;}
+}
+
+

@@ -1,0 +1,73 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 178.159.37.0/24
+deny from 115.133.72.42
+deny from 37.120.217.52
+deny from 46.243.220.102
+deny from 154.28.188.14
+deny from 135.148.2.94
+deny from 84.17.60.215
+deny from 46.33.33.112
+deny from 93.124.58.157
+deny from 94.100.180.201
+deny from 46.33.33.0/24
+deny from 46.53.243.244
+deny from 51.75.146.127
+deny from 23.250.44.213
+deny from 80.95.45.167
+deny from 135.148.2.114
+deny from 89.187.168.130
+deny from 185.189.114.120
+deny from 37.192.186.30
+deny from 95.154.200.175
+deny from 190.2.131.175
+deny from 46.243.220.0/24
+deny from 91.132.137.83
+deny from 23.94.47.114
+deny from 89.38.99.188
+deny from 144.91.99.47
+deny from 212.102.37.207
+deny from 176.110.134.2
+deny from 107.172.131.216
+deny from 84.17.48.33
+deny from 95.153.31.92
+deny from 45.57.153.46
+deny from 184.178.172.25
+deny from 31.134.125.80
+deny from 148.251.54.157
+deny from 85.159.237.74
+deny from 192.241.80.163
+deny from 115.133.80.188
+deny from 185.125.169.30
+deny from 79.105.117.187
+deny from 188.163.73.127
+deny from 191.101.217.50
+deny from 185.124.240.170
+deny from 23.229.57.244
+deny from 77.222.115.146
+deny from 91.79.37.152
+deny from 138.199.18.156
+deny from 188.122.82.146
+deny from 185.255.96.99
+deny from 45.72.73.77
+deny from 54.39.29.64
+deny from 190.2.132.136
+deny from 188.130.128.55
+deny from 192.3.28.247
+deny from 92.118.77.10
+deny from 188.0.0.0/8
+deny from 37.44.84.249
+deny from 223.187.177.215
+deny from 200.83.164.198
+deny from 103.105.154.2
+deny from 1.22.46.118
+deny from 31.134.0.0/16
+deny from 72.51.111.158
+deny from 197.235.56.72
